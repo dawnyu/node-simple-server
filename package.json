@@ -1,0 +1,27 @@
+{
+  "name": "node-simple-server",
+  "version": "1.0.0",
+  "description": "nodejs简易测试服务器",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/dawnyu/node-simple-server"
+  },
+  "keywords": [
+    "nodejs",
+    "server",
+    "service"
+  ],
+  "author": "dawns",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.15.2",
+    "express-auto-routes": "^2.2.0",
+    "lodash": "^4.17.4"
+  }
+}
